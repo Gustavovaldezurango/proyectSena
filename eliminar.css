@@ -1,0 +1,17 @@
+header{
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 224, 224);
+}
+#logo{
+    height: 100px;
+}
+div{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    width: 390px;
+    height: 150px; 
+    padding: 15px;
+   text-align: center;
+}
