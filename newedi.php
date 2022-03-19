@@ -29,8 +29,8 @@ $usuarios = "SELECT * FROM citas";
     <section>
         <table border="1">
             <tr>
-                <th colspan="7">datos de citas</th>
-                <th><a href="newedi.php"> ir edicion</a></th>
+                <th colspan="8">datos de citas</th>
+                
             </tr>
             <tr>
                 
@@ -58,14 +58,16 @@ $usuarios = "SELECT * FROM citas";
                     <td><?php echo $row["CorreoElectronico"] ?></td>
                     <td><?php echo $row["FechaNacimiento"] ?></td>
                     <td><?php echo $row["Genero"] ?></td>
-                    
-                    
+                    <td><a href="newact.php?id=<?php echo $row["CodigoCita"]?>">Editar</a></td>
+                    <td><a href="proeliminar.php?id=<?php echo $row["CodigoCita"]?>" class="eliminar">Eliminar</a></td>
+                
+
                 </tr>
                 
             <?php } ?>
         </table>
     </section>
-
+<script src="confirmar.js"></script>
 
 </body>
 
