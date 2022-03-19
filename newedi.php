@@ -59,7 +59,7 @@ $usuarios = "SELECT * FROM citas";
                     <td><?php echo $row["FechaNacimiento"] ?></td>
                     <td><?php echo $row["Genero"] ?></td>
                     <td><a href="newact.php?id=<?php echo $row["CodigoCita"]?>">Editar</a></td>
-                    <td><a href="proeliminar.php?id=<?php echo $row["CodigoCita"]?>" class="eliminar">Eliminar</a></td>
+                    <td><a href="eliminar.html">Eliminar</a></td>
                 
 
                 </tr>
